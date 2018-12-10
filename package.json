@@ -1,14 +1,12 @@
-
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "greeter-bot",
+  "version": "1.0.0",
+  "description": "Fox-bot",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "author": "Mario",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "winston": "2"
   }
 }
