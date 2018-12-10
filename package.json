@@ -1,3 +1,4 @@
+
 {
   "name": "Test",
   "description": "Test",
@@ -6,8 +7,6 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "help"  : "``` A Fox-bot parancsai: \n Parancsok:\n asd - válaszol 'pls type normaly'-val\n !ping - \n !help - ezt a CodeBlockot adja ki.\n !purge X - kitöröl a catornán X üzenetet ( max 100 min 2 [az is üzenet ha utasítod ;)] )\n !say X - X-et kiírja a bot ```",
-
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
